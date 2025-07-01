@@ -49,3 +49,34 @@
     left: 148px;
     background-color: red;
 }
+
+.flex-container {
+    display: flex;
+    border: 2px solid black;
+    padding: 10px;
+    height: 1000px;
+}
+
+.flex-item {
+    width: 100px;
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid blue;
+}
+
+.flex-container {
+    justify-content: flex-end;
+}
+
+.flex-container {
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-item {
+    flex: 1;
+}
+
+.flex-container {
+    flex-direction: column;
+}
